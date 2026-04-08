@@ -73,12 +73,37 @@ A procurement management solution built with Microsoft Power Platform, demonstra
 
 ## Screenshots
 
-| Screen | Description |
-|---|---|
-| `screenshots/order-list.png` | Main order list with color-coded statuses |
-| `screenshots/new-order.png` | New order form |
-| `screenshots/edit-order.png` | Edit order screen |
-| `screenshots/chatbot.png` | Copilot Studio bot in action |
+**Order list** – All purchase orders displayed with color-coded status indicators. Each row shows the order name, supplier, amount, delivery date and current status at a glance.
+
+![Order list](screenshots/tilaukset.png)
+
+**New order form** – A structured form for creating a new purchase order. All key fields are available including supplier, amount, delivery date and description.
+
+![New order form](screenshots/uusitilaus.png)
+
+**Order created** – The newly created order appears immediately in the list with the correct status color.
+
+![Order created](screenshots/uusitilaus2.png)
+
+**Selecting an order** – Tapping any row navigates directly to the edit view for that order.
+
+![Selecting an order](screenshots/tilausedit.png)
+
+**Edit order** – All order details can be updated and saved back to Dataverse in real time.
+
+![Edit order](screenshots/tilausedit2.png)
+
+**Copilot Studio – Order status topic** – The agent topic flow showing how a user query triggers a Power Automate call to Dataverse and returns the order status.
+
+![Copilot Studio topic](screenshots/tilausseuranta.png)
+
+**Chatbot – Conversation start** – The user asks about their order status in natural language and the bot asks for the order name.
+
+![Chatbot conversation](screenshots/chatbot1.png)
+
+**Chatbot – Status response** – The bot retrieves the live status from Dataverse via Power Automate and responds with the result.
+
+![Chatbot status response](screenshots/chatbot2.png)
 
 ---
 
@@ -94,4 +119,4 @@ Power Apps, Microsoft Dataverse, Power Automate, Copilot Studio, Microsoft 365 O
 
 ---
 
-Built as a portfolio project to demonstrate Power Platform skills for ERP-adjacent development roles. The solution simulates procurement workflows similar to those found in Dynamics 365 Finance & Operations implementations. Used Claude to create readme file.
+Built as a portfolio project to demonstrate Power Platform skills for ERP-adjacent development roles. The solution simulates procurement workflows similar to those found in Dynamics 365 Finance & Operations implementations.
